@@ -2,13 +2,15 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
+// const routerrr=express.Router()
 const requestLogger = require("./utilities/requestlogger");
 const errorLogger = require("./utilities/errorlogger");
 const setup = require("./model/dbSetup");
-
+const router=require('./routes/userRoute')
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use('/',router)
 app.use(requestLogger);
 
 app.get("/setupDb",async (req, res, next) => {
