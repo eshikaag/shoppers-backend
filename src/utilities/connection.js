@@ -16,6 +16,26 @@ const userSchema =Schema({
     gender: {type:String}
 });
 
+
+const productSchema=Schema({
+    pid:{type:String, required:true},
+    pName: {type:String, required:true},
+    pDescrip: {type:String, required:true},
+    pRating:  {type:Number, required:true},
+    pCategory:{type:String, required:true},
+    img: {type:String, required:true},
+
+    color: {type:String, required:true},
+    price:  {type:Number, required:true},
+    pDiscount:  {type:Number, required:true},
+    pQuantityAvailable:  {type:Number, required:true},
+    pShippingCharges:  {type:Number, required:true}
+   
+
+})
+
+
+
 let connection = {};
 
 
@@ -24,6 +44,16 @@ connection.getConnection = ()=> {
         useNewUrlParser: true,
         useUnifiedTopology: true
     }).then(data => {console.log("IN HERE");return data.model("users", userSchema)}).catch(err => {
+        let errr = new Error("Failed to connct to database");
+        errr.status = 500;
+        throw errr;
+    })
+}
+connection.getProductConnection = ()=> {
+    return mongoose.connect(url, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    }).then(data => {console.log("IN prod HERE");return data.model("products", productSchema)}).catch(err => {
         let errr = new Error("Failed to connct to database");
         errr.status = 500;
         throw errr;

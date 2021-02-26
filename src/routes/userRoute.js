@@ -12,7 +12,7 @@ routing.post('/register',async(req,res,next)=>
         if(userId)
         {
             console.log("response",userId)
-            res.json({"message":"reg successful"})
+            res.json({"message":"reg successful with userid"+userId})
             res.status(200)
         }
     }
@@ -42,6 +42,24 @@ catch(e)
 }
 )
 
+
+routing.get('/categoryproducts/:category',async(req,res,next)=>
+{
+let category=req.params.category
+try
+{
+    let data=await service.getspecificproducts(category)
+    if(data)
+    {
+        console.log("categspeiciroute",data)
+        res.json(data)
+    }
+}
+catch(e)
+{
+    next(e)
+}
+})
 
 
 module.exports=routing

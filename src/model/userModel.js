@@ -77,10 +77,21 @@ user.login=async(data)=>
         err.stack=500
         throw err;
     }
-    
    
-
-
+}
+user.getspecificproduct=async(categ)=>
+{
+    console.log("model",categ)
+    const prodconn=await connection.getProductConnection()
+    let find=await prodconn.find({"pCategory":categ})
+    if(find.length>1)
+    {
+        return find;
+    }
+    else
+    {
+        return null;
+    }
 
 }
 

@@ -18,4 +18,11 @@ user.login=async(data)=>
     return res;
 }
 
+
+user.getspecificproducts=async(categ)=>
+{
+    console.log("service",categ)
+    const res=await userModel.getspecificproduct(categ)
+    return res;
+}
 module.exports=user
