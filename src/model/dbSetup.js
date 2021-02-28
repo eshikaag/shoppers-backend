@@ -8,8 +8,15 @@ const userDetails = {
     "address": "United States",
     "email": "john@gmail.com",
     "dob": "1998-04-20",
-    "gender": "Male"
+    "gender": "Male",
+   
 }
+
+const cartData=[{
+    "email": "john@gmail.com",
+   
+    }]
+
 const prodData = [{
     "pid": "p1001",
     "pName": "Silk saree",
@@ -203,8 +210,13 @@ setup.data = async () => {
         const prodColl=await connection.getProductConnection()
         await prodColl.deleteMany()
         const resultProd=await prodColl.insertMany(prodData)
+   
+        const cartColl=await connection.getCartConnection()
+        await cartColl.deleteMany()
+        const resultCart=await cartColl.insertMany(cartData)
 
-        if (insertData.length > 0 && resultProd.length>0)
+
+        if (insertData.length > 0 && resultProd.length>0 && resultCart.length>0)
             return "Added " + insertData.length + " records";
         else
             return null;

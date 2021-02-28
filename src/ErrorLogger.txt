@@ -21,4 +21,280 @@ Fri Feb 26 2021 13:25:16 GMT+0530 (India Standard Time)-Error: Failed to connect
     at Object.user.getspecificproduct (F:\shoppersgit\shoppers-backend\src\model\userModel.js:86:47)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async Object.user.getspecificproducts (F:\shoppersgit\shoppers-backend\src\service\userService.js:25:15)
-    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:51:14
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:51:14Sat Feb 27 2021 20:54:19 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 20:56:59 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 20:59:17 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 20:59:51 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 21:02:08 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 21:21:03 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 21:22:08 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 21:23:05 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 21:23:08 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 21:24:35 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 21:25:28 GMT+0530 (India Standard Time)-ReferenceError: uCart is not defined
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:108:46)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16Sat Feb 27 2021 21:25:48 GMT+0530 (India Standard Time)-ReferenceError: uCart is not defined
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:108:46)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16Sat Feb 27 2021 21:26:32 GMT+0530 (India Standard Time)-ReferenceError: uCart is not defined
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:108:46)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16Sat Feb 27 2021 21:37:36 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 21:39:48 GMT+0530 (India Standard Time)-MongoError: Cannot create field 'pquantity' in element {uCart: [ { pid: "p1006" }, { pid: "p1001" }, { pid: "p1001" }, { pid: "p1001" }, { pid: "p1001" }, { pid: "p1001" }, { pid: "p1001" }, { pid: "p1001" }, { pid: "p1001" }, { pid: "p1001", pquantity: 1 }, { pid: "p1001", pquantity: 1 } ]}
+    at Function.create (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\utils.js:123:22)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\topology.js:943:24)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)Sat Feb 27 2021 21:48:33 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 21:51:16 GMT+0530 (India Standard Time)-ReferenceError: data is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:74:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sat Feb 27 2021 21:52:28 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 21:58:02 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:00:57 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:01:38 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:05:16 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:05:31 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:06:13 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:08:46 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:12:09 GMT+0530 (India Standard Time)-Error: Failed to connect
+    at Object.setup.data (F:\shoppersgit\shoppers-backend\src\model\dbSetup.js:214:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\app.js:18:15Sat Feb 27 2021 22:18:30 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:24:46 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:25:54 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:32:22 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:32:45 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:34:26 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:34:54 GMT+0530 (India Standard Time)-500Sat Feb 27 2021 22:44:54 GMT+0530 (India Standard Time)-MongoError: The field 'uCart' must be an array but is of type object in document {_id: ObjectId('603a77b09af31a2704ec27dd')}
+    at Function.create (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\utils.js:123:22)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\topology.js:943:24)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)Sat Feb 27 2021 23:09:16 GMT+0530 (India Standard Time)-Error: Failed to connect
+    at Object.setup.data (F:\shoppersgit\shoppers-backend\src\model\dbSetup.js:228:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\app.js:18:15Sat Feb 27 2021 23:35:57 GMT+0530 (India Standard Time)-MongoError: The field 'pid' must be an array but is of type string in document {_id: ObjectId('603a83d481edc72090bd62ce')}
+    at Function.create (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\utils.js:123:22)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\topology.js:943:24)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)Sat Feb 27 2021 23:39:46 GMT+0530 (India Standard Time)-MongoError: The field 'pid' must be an array but is of type string in document {_id: ObjectId('603a83d481edc72090bd62ce')}
+    at Function.create (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\utils.js:123:22)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\topology.js:943:24)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)Sat Feb 27 2021 23:42:29 GMT+0530 (India Standard Time)-MongoError: The field 'pid' must be an array but is of type string in document {_id: ObjectId('603a83d481edc72090bd62ce')}
+    at Function.create (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\utils.js:123:22)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\topology.js:943:24)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)Sat Feb 27 2021 23:43:05 GMT+0530 (India Standard Time)-MongoError: The field 'pid' must be an array but is of type string in document {_id: ObjectId('603a83d481edc72090bd62ce')}
+    at Function.create (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\utils.js:123:22)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\topology.js:943:24)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)Sat Feb 27 2021 23:44:17 GMT+0530 (India Standard Time)-MongoError: The field 'pid' must be an array but is of type string in document {_id: ObjectId('603a83d481edc72090bd62ce')}
+    at MessageStream.messageHandler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection.js:268:20)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)
+    at Socket.Readable.push (_stream_readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)Sat Feb 27 2021 23:44:51 GMT+0530 (India Standard Time)-MongoError: The field 'pid' must be an array but is of type string in document {_id: ObjectId('603a83d481edc72090bd62ce')}
+    at Function.create (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\utils.js:123:22)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\topology.js:943:24)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)Sat Feb 27 2021 23:57:58 GMT+0530 (India Standard Time)-MongoError: The field 'pid' must be an array but is of type string in document {_id: ObjectId('603a83d481edc72090bd62ce')}
+    at Function.create (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\utils.js:123:22)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\topology.js:943:24)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)Sun Feb 28 2021 01:13:30 GMT+0530 (India Standard Time)-ReferenceError: Cart is not defined
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:124:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16Sun Feb 28 2021 01:15:33 GMT+0530 (India Standard Time)-ReferenceError: Cart is not defined
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:124:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16Sun Feb 28 2021 01:16:03 GMT+0530 (India Standard Time)-ReferenceError: Cart is not defined
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:125:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16Sun Feb 28 2021 01:17:32 GMT+0530 (India Standard Time)-ReferenceError: cart is not defined
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:125:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16Sun Feb 28 2021 01:20:02 GMT+0530 (India Standard Time)-ReferenceError: cart is not defined
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:125:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16Sun Feb 28 2021 01:26:01 GMT+0530 (India Standard Time)-TypeError: connection.getConnection is not a function
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:104:37)
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:31)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:30
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Sun Feb 28 2021 01:26:42 GMT+0530 (India Standard Time)-TypeError: connection.getConnection is not a function
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:104:37)
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:31)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:30
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Sun Feb 28 2021 01:37:42 GMT+0530 (India Standard Time)-Error: Failed to connect
+    at Object.setup.data (F:\shoppersgit\shoppers-backend\src\model\dbSetup.js:226:18)
+    at F:\shoppersgit\shoppers-backend\src\app.js:18:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at reqLogger (F:\shoppersgit\shoppers-backend\src\utilities\requestlogger.js:11:1)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:635:15Sun Feb 28 2021 01:37:45 GMT+0530 (India Standard Time)-Error: Failed to connect
+    at Object.setup.data (F:\shoppersgit\shoppers-backend\src\model\dbSetup.js:226:18)
+    at F:\shoppersgit\shoppers-backend\src\app.js:18:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at reqLogger (F:\shoppersgit\shoppers-backend\src\utilities\requestlogger.js:11:1)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:635:15Sun Feb 28 2021 01:39:38 GMT+0530 (India Standard Time)-ReferenceError: obj is not defined
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:125:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16Sun Feb 28 2021 01:40:46 GMT+0530 (India Standard Time)-ReferenceError: obj is not defined
+    at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:125:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16

@@ -25,4 +25,12 @@ user.getspecificproducts=async(categ)=>
     const res=await userModel.getspecificproduct(categ)
     return res;
 }
+
+user.addItem=async(email,prod)=>
+{
+    console.log("serv additem",prod)
+    const res=await userModel.addItem(email,prod)
+    return res
+}
+
 module.exports=user

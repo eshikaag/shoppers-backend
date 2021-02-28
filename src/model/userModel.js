@@ -19,9 +19,9 @@ user.register=async(data)=>
         console.log("model reg2",data.userDetails)
         try{
             console.log("step2")
-            console.log(data.userId)
+            console.log(data.userDetails.userId)
             console.log(data.userDetails.userName)
-
+            console.log(data.uCart)
             const newUser=await conn.create(data.userDetails)////////
             console.log("newwww",newUser)
             if(newUser)
@@ -94,5 +94,46 @@ user.getspecificproduct=async(categ)=>
     }
 
 }
+
+user.addItem=async(email,prod)=>
+{
+    
+
+
+    console.log("model",prod)
+    const userColl=await connection.getConnection()
+    const cartColl=await connection.getCartConnection()
+    let p=await cartColl.findOne({"email":email})
+    console.log("yes",p)
+    if(p)
+    {
+        var upd=await cartColl.updateOne({"uCart.pid":prod.pid,"email":email},{$inc:{"uCart.$.pquantity":1}})
+        if(upd.nModified==0)
+        {
+            console.log("need to modify")
+           await cartColl.updateOne({"email":email},{$push:{"uCart":{"pid":prod.pid,"pquantity":1}}})
+           console.log("cart added with pid"+prod.pid)
+           return {message:"cart added with pid"+prod.pid}
+        }
+        else{
+            return {message:`quant with prod id ${prod.pid} increased by 1`}
+        }
+    }
+    else
+    {
+        console.log("in else")
+        let obj =  {
+            email: email,
+          
+            uCart: [{pid:prod.pid,pquantity:1}]
+            
+          };
+
+        // obj.save()
+cartColl.create(obj)
+        return {message:`Cart with email ${email} created successfully and item with id ${prod.pid} added sucessfully`}
+    }
+}
+
 
 module.exports=user

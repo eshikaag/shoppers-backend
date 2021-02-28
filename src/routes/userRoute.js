@@ -62,4 +62,22 @@ catch(e)
 })
 
 
+routing.post('/addItem/:email',async(req,res,next)=>
+{
+let prod=req.body
+let email=req.params.email
+try{
+    let result=await service.addItem(email,prod)
+    if(result)
+    {
+  console.log("add item route",result)
+  res.json(result)        
+    }
+}
+catch(e)
+{
+    next(e)
+}
+})
+
 module.exports=routing

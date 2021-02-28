@@ -13,8 +13,16 @@ const userSchema =Schema({
     address: {type:String, required:true},
     email: {type:String, required:true},
     dob: {type:Date, required: true},
-    gender: {type:String}
+    gender: {type:String},
+
+    // uCart:{
+    //     email/.........
+    //     pid:{type:String, required:true},
+    //     pquantity:{type:Number,required:true}
+    // }
+
 });
+
 
 
 const productSchema=Schema({
@@ -34,7 +42,14 @@ const productSchema=Schema({
 
 })
 
+const cartSchema=Schema({
+  
+   email:{type:String, required:true},
+   uCart:{type:[ {pid:{type:String, required:true}, pquantity:{type:Number, required:true}} ]}
+ 
+   
 
+})
 
 let connection = {};
 
@@ -60,7 +75,18 @@ connection.getProductConnection = ()=> {
     })
 }
 
-module.exports = connection;
+connection.getCartConnection = ()=> {
+    return mongoose.connect(url, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    }).then(data => {console.log("IN cartHERE");return data.model("cart", cartSchema)}).catch(err => {
+        let errr = new Error("Failed to connct to database");
+        errr.status = 500;
+        throw errr;
+    })
+}
+// let x=mongoose.model('cart', cartSchema)
+module.exports=connection;
 
 
  
