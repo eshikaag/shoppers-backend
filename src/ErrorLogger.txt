@@ -297,4 +297,267 @@ Fri Feb 26 2021 13:25:16 GMT+0530 (India Standard Time)-Error: Failed to connect
     at Object.user.addItem (F:\shoppersgit\shoppers-backend\src\model\userModel.js:125:17)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async Object.user.addItem (F:\shoppersgit\shoppers-backend\src\service\userService.js:32:15)
-    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:70:16Sun Feb 28 2021 19:38:47 GMT+0530 (India Standard Time)-CastError: Cast to string failed for value "{ email: 'eshika.agrawal@gmail.com' }" at path "email" for model "cart"
+    at model.Query.exec (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\query.js:4454:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sun Feb 28 2021 19:39:25 GMT+0530 (India Standard Time)-CastError: Cast to string failed for value "{ email: 'eshika.agrawal@gmail.com' }" at path "email" for model "cart"
+    at model.Query.exec (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\query.js:4454:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Sun Feb 28 2021 19:39:47 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'toObject' of null
+    at Object.user.getAllProducts (F:\shoppersgit\shoppers-backend\src\model\userModel.js:154:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.getAllProducts (F:\shoppersgit\shoppers-backend\src\service\userService.js:40:14)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:87:18Mon Mar 01 2021 02:18:52 GMT+0530 (India Standard Time)-ReferenceError: quantity is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:115:48
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:20:17 GMT+0530 (India Standard Time)-ReferenceError: quantity is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:115:48
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:23:07 GMT+0530 (India Standard Time)-ReferenceError: quantity is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:115:48
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:23:45 GMT+0530 (India Standard Time)-ReferenceError: quantity is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:115:48
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:24:28 GMT+0530 (India Standard Time)-ReferenceError: email is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:114:21
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:24:36 GMT+0530 (India Standard Time)-ReferenceError: email is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:114:21
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:25:09 GMT+0530 (India Standard Time)-ReferenceError: quantitiy is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:116:30
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:25:24 GMT+0530 (India Standard Time)-ReferenceError: quantitiy is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:116:30
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:30:27 GMT+0530 (India Standard Time)-ReferenceError: quantitiy is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:116:30
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:30:44 GMT+0530 (India Standard Time)-ReferenceError: quantitiy is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:116:30
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:30:56 GMT+0530 (India Standard Time)-ReferenceError: quantitiy is not defined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:116:30
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at F:\shoppersgit\shoppers-backend\node_modules\body-parser\lib\read.js:130:5Mon Mar 01 2021 02:31:11 GMT+0530 (India Standard Time)-TypeError: Collection.getCartConnection is not a function
+    at Object.user.updateProductQuantity (F:\shoppersgit\shoppers-backend\src\model\userModel.js:143:38)
+    at Object.user.updateQuantity (F:\shoppersgit\shoppers-backend\src\service\userService.js:59:30)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:117:24
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)Mon Mar 01 2021 02:32:18 GMT+0530 (India Standard Time)-MongoError: Cannot create field 'pquantity' in element {uCart: [ { _id: ObjectId('603aa797c21f5315e0b10de7'), pid: "p1001", pquantity: 3 }, { _id: ObjectId('603becba43722726fce7716d'), pid: "p1003", pquantity: 1 }, { _id: ObjectId('603bed1543722726fce7716e'), pid: "p1007", pquantity: 1 }, { _id: ObjectId('603c019843722726fce7716f'), pid: "p1002", pquantity: 1 } ]}
+    at Function.create (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\utils.js:123:22)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\topology.js:943:24)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (F:\shoppersgit\shoppers-backend\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)Mon Mar 01 2021 02:33:17 GMT+0530 (India Standard Time)-ReferenceError: result is not defined
+    at Object.user.updateQuantity (F:\shoppersgit\shoppers-backend\src\service\userService.js:61:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:117:10Mon Mar 01 2021 02:34:02 GMT+0530 (India Standard Time)-ReferenceError: prod is not defined
+    at Object.user.updateQuantity (F:\shoppersgit\shoppers-backend\src\service\userService.js:65:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:117:10Mon Mar 01 2021 02:34:43 GMT+0530 (India Standard Time)-ReferenceError: prod is not defined
+    at Object.user.updateQuantity (F:\shoppersgit\shoppers-backend\src\service\userService.js:65:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:117:10Mon Mar 01 2021 02:42:40 GMT+0530 (India Standard Time)-ReferenceError: conn is not defined
+    at Object.user.updateProductQuantity (F:\shoppersgit\shoppers-backend\src\model\userModel.js:143:21)
+    at Object.user.updateQuantity (F:\shoppersgit\shoppers-backend\src\service\userService.js:60:30)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:117:24
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)Mon Mar 01 2021 02:53:14 GMT+0530 (India Standard Time)-TypeError: service.removeProduct is not a function
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:100:32
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7Mon Mar 01 2021 02:55:48 GMT+0530 (India Standard Time)-ReferenceError: quantity is not defined
+    at Object.user.removeProd (F:\shoppersgit\shoppers-backend\src\model\userModel.js:202:83)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.removeProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:82:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:100:18

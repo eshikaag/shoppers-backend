@@ -1,3 +1,4 @@
+const { Collection } = require('mongoose')
 const connection = require('../utilities/connection')
 let user={}
 
@@ -134,6 +135,85 @@ cartColl.create(obj)
         return {message:`Cart with email ${email} created successfully and item with id ${prod.pid} added sucessfully`}
     }
 }
+
+
+
+user.updateProductQuantity=async(id,email,quantity)=>
+{
+    const prodModel=await connection.getProductConnection()
+    const cartModel=await connection.getCartConnection()
+    var upd=await cartModel.updateOne({"email":email,'uCart.pid':id},{'$set':{'uCart.$.pquantity':quantity}}) //imp $
+    // if(upd)
+    // {
+    //     var upd2=await prodModel.updateOne({"pid":id},{$inc:{'pQuantityAvailable':-quantity}})
+    //     console.log("upd2",upd2)
+    // }
+    
+    console.log("quanit upd",upd)
+
+}
+
+
+user.getAllProducts=async(email)=>
+{
+    console.log("model getall")
+    const cart=await connection.getCartConnection()
+    let user=await cart.findOne({"email":email})
+    user=user.toObject()
+    const prodIds = user.uCart.map((p)=>{return p.pid})
+
+    const prod=await connection.getProductConnection()
+    let prodData=await prod.find({"pid":{$in:prodIds}})
+    result=prodData.map((p)=>{return p.toObject()})
+
+
+    const products=result.map((p)=>{
+        user.uCart.forEach((el)=>
+        {
+            if(p.pid==el.pid)
+            {
+                p["userCustomQuantity"]=el.pquantity
+                console.log("heyyy",p)
+            }
+        })
+        return p;
+    })
+    if(products.length<1)
+    {
+        return []
+    }
+    else
+    {
+        return products
+    }
+}
+
+
+
+
+user.removeProd=async(email,id)=>
+{
+    console.log("model rem")
+    const prodModel=await connection.getProductConnection()
+    const cartModel=await connection.getCartConnection()
+   const rem= await cartModel.updateOne({"email":email},{'$pull':{'uCart':{'pid':id}}})
+   if(rem)
+   {
+       return true
+   }
+//    if(rem)
+//     {
+//         var upd2=await prodModel.updateOne({"pid":id},{$inc:{'pQuantityAvailable':quantity}})
+//         console.log("upd2",upd2)
+//     }
+   else
+   {
+       return false;
+   }
+}
+
+
+
 
 
 module.exports=user

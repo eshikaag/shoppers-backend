@@ -80,4 +80,50 @@ catch(e)
 }
 })
 
+routing.get('/getAllProducts/:email',async(req,res,next)=>
+{
+    let email=req.params.email
+    try{
+        let data=await service.getAllProducts(email)
+        res.json(data)
+    }
+    catch(e)
+    {
+        next(e)
+    }
+})
+routing.delete('/removeProduct/:email/:id',async(req,res,next)=>
+{
+    console.log("route rem")
+    let {email,id}=req.params
+    try{
+        let data=await service.removeProd(email,id)
+        res.json(data)
+    }
+    catch(e)
+    {
+        next(e)
+    }
+})
+
+
+routing.put('/updateQuantity',async(req,res,next)=>
+{
+    let id=req.body.pid
+    let email=req.body.email
+    let quantity=req.body.quantity
+    try
+    {
+console.log("route",email,id,quantity)
+let data=await service.updateQuantity(id,email,quantity)
+res.json(data)
+    }
+    catch(e)
+    {
+        next(e)
+    }
+})
+
+
+
 module.exports=routing
