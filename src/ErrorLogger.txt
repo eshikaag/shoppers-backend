@@ -560,4 +560,647 @@ Fri Feb 26 2021 13:25:16 GMT+0530 (India Standard Time)-Error: Failed to connect
     at Object.user.removeProd (F:\shoppersgit\shoppers-backend\src\model\userModel.js:202:83)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async Object.user.removeProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:82:13)
-    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:100:18
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:100:18Tue Mar 02 2021 00:59:35 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:224:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:132:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:01:33 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:224:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:132:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:02:07 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:225:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:132:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:02:35 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:225:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:03:13 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:03:48 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:05:18 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:07:27 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:08:52 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:10:08 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:10:25 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:10:43 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:14:35 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:24:35 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:51:01 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:51:24 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 01:52:32 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:02:20 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:16:30 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:16:51 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:17:08 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:17:21 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:17:33 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:226:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:17:53 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:227:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:19:12 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:227:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:19:25 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:227:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:19:31 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:227:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:20:17 GMT+0530 (India Standard Time)-ReferenceError: cartTot is not defined
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:227:31)
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:29)
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:27
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)Tue Mar 02 2021 02:20:37 GMT+0530 (India Standard Time)-ValidationError: order validation failed: uOrders.0.orderProd.0.pid: Path `pid` is required., uOrders.0.orderProd.0.pquantity: Path `pquantity` is required.
+    at model.Document.invalidate (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\document.js:2691:32)
+    at EmbeddedDocument.invalidate (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.invalidate (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\document.js:2512:17
+    at F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\schematype.js:1241:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)Tue Mar 02 2021 02:21:25 GMT+0530 (India Standard Time)-ValidationError: order validation failed: uOrders.0.orderProd.0.pid: Path `pid` is required., uOrders.0.orderProd.0.pquantity: Path `pquantity` is required.
+    at model.Document.invalidate (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\document.js:2691:32)
+    at EmbeddedDocument.invalidate (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.invalidate (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\document.js:2512:17
+    at F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\schematype.js:1241:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)Tue Mar 02 2021 02:27:04 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'getOrders' of undefined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:151:37
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)Tue Mar 02 2021 02:28:22 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'getOrders' of undefined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:152:37
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)Tue Mar 02 2021 02:28:51 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'getOrders' of undefined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:152:37
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)Tue Mar 02 2021 02:28:52 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'getOrders' of undefined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:152:37
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)Tue Mar 02 2021 02:28:53 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'getOrders' of undefined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:152:37
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)Tue Mar 02 2021 02:29:16 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'getOrders' of undefined
+    at F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:152:37
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:281:22
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:317:13)
+    at F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\shoppersgit\shoppers-backend\node_modules\express\lib\router\index.js:335:12)Tue Mar 02 2021 02:37:56 GMT+0530 (India Standard Time)-ValidationError: order validation failed: uOrders.0.orderProd.0.pid: Path `pid` is required., uOrders.0.orderProd.0.pquantity: Path `pquantity` is required.
+    at model.Document.invalidate (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\document.js:2691:32)
+    at EmbeddedDocument.invalidate (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.invalidate (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\document.js:2512:17
+    at F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\schematype.js:1241:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)Wed Mar 03 2021 12:51:44 GMT+0530 (India Standard Time)-CastError: Cast to embedded failed for value "{\n' +
+  "  orderId: 'O1001',\n" +
+  '  cartTotal: NaN,\n' +
+  "  orderProd: [ { _id: 603f39068c4ffd15b4cb6736, pid: 'p1002', pquantity: 1 } ]\n" +
+  '}" at path "uOrders"
+    at model.Query.exec (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\query.js:4454:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Wed Mar 03 2021 12:51:46 GMT+0530 (India Standard Time)-CastError: Cast to embedded failed for value "{\n' +
+  "  orderId: 'O1001',\n" +
+  '  cartTotal: NaN,\n' +
+  "  orderProd: [ { _id: 603f39068c4ffd15b4cb6736, pid: 'p1002', pquantity: 1 } ]\n" +
+  '}" at path "uOrders"
+    at model.Query.exec (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\query.js:4454:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Wed Mar 03 2021 12:52:46 GMT+0530 (India Standard Time)-CastError: Cast to embedded failed for value "{\n' +
+  "  orderId: 'O1001',\n" +
+  '  cartTotal: NaN,\n' +
+  "  orderProd: [ { _id: 603f39068c4ffd15b4cb6736, pid: 'p1002', pquantity: 1 } ]\n" +
+  '}" at path "uOrders"
+    at model.Query.exec (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (F:\shoppersgit\shoppers-backend\node_modules\mongoose\lib\query.js:4454:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Wed Mar 03 2021 13:35:00 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:285:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:35:01 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:285:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:35:01 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:285:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:35:02 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:285:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:35:02 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:285:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:35:03 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:285:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:35:03 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:285:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:36:04 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:285:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:36:42 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:286:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:37:29 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:286:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:39:44 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:276:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:47:00 GMT+0530 (India Standard Time)-TypeError: user.generateOrderId is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:286:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:49:54 GMT+0530 (India Standard Time)-TypeError: user.dummy is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:287:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:50:22 GMT+0530 (India Standard Time)-TypeError: this.dummy is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:287:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Wed Mar 03 2021 13:51:46 GMT+0530 (India Standard Time)-TypeError: this.dummy is not a function
+    at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:291:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Sun Mar 07 2021 00:26:35 GMT+0530 (India Standard Time)-500Sun Mar 07 2021 00:26:35 GMT+0530 (India Standard Time)-500

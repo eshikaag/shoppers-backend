@@ -50,7 +50,15 @@ const cartSchema=Schema({
    
 
 })
-
+const orderSchema=Schema({
+  
+    email:{type:String, required:true},
+    uOrders:{type:[{ orderId:{type:String, required:true}, cartTotal:{type:Number, required:true},orderProd:{type:[{pid:{type:String, required:true}, pquantity:{type:Number, required:true}}]}}]} 
+   
+    
+ 
+ })
+ 
 let connection = {};
 
 
@@ -80,6 +88,17 @@ connection.getCartConnection = ()=> {
         useNewUrlParser: true,
         useUnifiedTopology: true
     }).then(data => {console.log("IN cartHERE");return data.model("cart", cartSchema)}).catch(err => {
+        let errr = new Error("Failed to connct to database");
+        errr.status = 500;
+        throw errr;
+    })
+}
+
+connection.getOrderConnection = ()=> {
+    return mongoose.connect(url, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    }).then(data => {console.log("IN order HERE");return data.model("order", orderSchema)}).catch(err => {
         let errr = new Error("Failed to connct to database");
         errr.status = 500;
         throw errr;

@@ -124,6 +124,42 @@ res.json(data)
     }
 })
 
+routing.post('/updateOrder/:email',async(req,res,next)=>
+{
+let prod=req.body
+let email=req.params.email
+console.log("routing prod",prod)
+try{
+    let upd=await service.updateOrder(prod,email)
+    if(upd)
+    {
+        res.json({"message":"order successful"})
+    }
 
+
+}
+catch(e)
+{
+    next(e)
+}
+})
+
+
+routing.get('/getOrders/:email',async(req,res,next)=>
+{
+    try{
+        console.log("route getorder")
+        let data=await service.getOrders(req.params.email)
+if(data)
+{
+    res.status=200
+    res.json(data)
+}
+    }
+   catch(e)
+   {
+       next(e)
+   }
+})
 
 module.exports=routing

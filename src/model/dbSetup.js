@@ -12,11 +12,14 @@ const userDetails = {
    
 }
 
-const cartData=[{
-    "email": "john@gmail.com",
+// const cartData={
+//     "email": "john@gmail.com",
    
-    }]
-
+//     }
+//     const orderData={
+//         "email": "john@gmail.com",
+    //    []
+//         }
 const prodData = [{
     "pid": "p1001",
     "pName": "Silk saree",
@@ -214,6 +217,11 @@ setup.data = async () => {
         const cartColl=await connection.getCartConnection()
         await cartColl.deleteMany()
         const resultCart=await cartColl.insertMany(cartData)
+
+
+        const orderColl=await connection.getOrderConnection()
+        await orderColl.deleteMany()
+        const resultOrder=await orderColl.insertMany(orderData)
 
 
         if (insertData.length > 0 && resultProd.length>0 && resultCart.length>0)

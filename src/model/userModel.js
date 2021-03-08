@@ -2,6 +2,13 @@ const { Collection } = require('mongoose')
 const connection = require('../utilities/connection')
 let user={}
 
+// user.generateOrderId=async()=>
+// {
+  
+// }
+
+
+
 user.register=async(data)=>
 {
 
@@ -212,8 +219,132 @@ user.removeProd=async(email,id)=>
    }
 }
 
+async function generateOrderId()
+{
+    console.log("hoiiiiiiiiiiiiiiiii")
+    const model=await connection.getOrderConnection()
+    const result=await model.distinct("uOrders.orderId")
+    if(result.length==0)
+    {
+        return "O1001"
+    }
+
+    console.log(model)
+    console.log(result)
+    let value=result.map(p=>
+        {
+            return p.substr(1)
+
+        })
+    console.log(value)
+    let max=Math.max(...value)
+    console.log(max)
+    return "O"+(parseInt(max)+1)
+}
+
+user.dummy=()=>
+{
+    return "heelo"
+}
+user.updateOrder=async(prod,email)=>
+{
+    
+    console.log("model ord",prod)
+    let sum=5
+    console.log("model order")
+    for(let i in prod)
+    {
+       console.log("in loop")
+       console.log(prod[i].price)
+       console.log(prod[i].userCustomQuantity)
+        sum+=((prod[i].price-((prod[i].price)*(prod[i].pDiscount)))*prod[i].userCustomQuantity)
+        console.log("here")
+        console.log("in loop",sum)
+       
+    } 
+   
+    let s = Math.round(sum+150) 
+   
+    const prodModel=await connection.getProductConnection()
+    
+    const orderModel=await connection.getOrderConnection()
+    const cartModel=await connection.getCartConnection()
+   
+    let user=await cartModel.findOne({'email':email})
+   
+    let cartItems=user.uCart
+   
+    if(user)
+    {
+        console.log("user")
+        let isValid=true
+        const prods=prod.map((p)=>
+        {
+            user.uCart.forEach((cartProd)=>
+            {
+                if(p.pid==cartProd.pid){
+                if(p.pquantity<cartProd.pquantity)
+                {
+                    console.log("false")
+                    isValid=false
+                    let err=new Error("quantity out of stock")
+                    err.status=401
+                    throw err
+                }
+            }
+            })
+        })
 
 
+        if(isValid==true)
+        {
+            console.log("valid")
+            
+         
+            let o=await generateOrderId()
+            console.log("o",o)
+            let obj =  {
+                email: email,
+              
+                uOrders: [{orderId:o,cartTotal:s,orderProd:cartItems}]
+                
+                
+              };
+            let order={
+                orderId:o,
+               
+                cartTotal:s,
+                orderProd:cartItems
+            }
+            let result= await orderModel.updateOne({'email':email},{$push:{uOrders:order}})
+            if(result.nModified==0)
+            {
+                console.log("next")
+                 orderModel.create(obj)
+            }
+          
+            for(let j of cartItems)
+            {
+                let p=await prodModel.updateOne({'pid':prod.pid},{$inc:{'pquantity':-prod.pquantity}})
 
+            }
+            let res=await cartModel.updateOne({'email':email},{$unset:{uCart:[]}})
+            console.log("unset")
+            return isValid
+        }
+    }
+}
+
+user.getOrders=async(email)=>
+{
+    console.log("model get order")
+    const orderColl=await connection.getOrderConnection()
+    const data=await orderColl.find({'email':email})
+    if(data)
+    {
+        console.log("orders model",data)
+        return data
+    }
+}
 
 module.exports=user

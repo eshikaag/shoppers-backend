@@ -88,6 +88,36 @@ user.removeProd=async(email,id)=>
     return prod
 }
 
+user.updateOrder=async(email,prod)=>
+{
+    console.log("serv order")
+    let upd=await userModel.updateOrder(email,prod)
+    if(upd)
+    {
+        return upd;
+    }
+    else
+    {
+        let err=new Error()
+        err.status=404
+        throw err;
+    }
+}
 
+user.getOrders=async(email)=>
+{
+    console.log("inside  serv",email)
+    let data=await userModel.getOrders(email)
+    if(data)
+    {
+        return data
+    }
+    else
+    {
+        let err=new Error("cANNOT return orders")
+        err.status=404
+        throw err
+    }
+}
 
 module.exports=user
