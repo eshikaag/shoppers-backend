@@ -120,4 +120,23 @@ user.getOrders=async(email)=>
     }
 }
 
+
+
+user.searchProd=async(item)=>
+{
+    
+    let p=await userModel.searchProd(item);
+    console.log("hello");
+    if(p==null)
+    {
+        let err=new Error("cANNOT return orders")
+        err.status=404
+        throw err
+    }
+    else
+    {
+        return p;
+    }
+}
+
 module.exports=user

@@ -1203,4 +1203,116 @@ Fri Feb 26 2021 13:25:16 GMT+0530 (India Standard Time)-Error: Failed to connect
     at Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\model\userModel.js:291:24)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async Object.user.updateOrder (F:\shoppersgit\shoppers-backend\src\service\userService.js:94:13)
-    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Sun Mar 07 2021 00:26:35 GMT+0530 (India Standard Time)-500Sun Mar 07 2021 00:26:35 GMT+0530 (India Standard Time)-500
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:133:13Sun Mar 07 2021 00:26:35 GMT+0530 (India Standard Time)-500Sun Mar 07 2021 00:26:35 GMT+0530 (India Standard Time)-500Sat Apr 17 2021 21:31:16 GMT+0530 (India Standard Time)-Error: Failed to connect
+    at Object.setup.data (F:\shoppersgit\shoppers-backend\src\model\dbSetup.js:234:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\app.js:18:15Sat Apr 17 2021 21:31:38 GMT+0530 (India Standard Time)-Error: Failed to connect
+    at Object.setup.data (F:\shoppersgit\shoppers-backend\src\model\dbSetup.js:234:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\app.js:18:15Sat Apr 17 2021 21:33:18 GMT+0530 (India Standard Time)-Error: Failed to connect
+    at Object.setup.data (F:\shoppersgit\shoppers-backend\src\model\dbSetup.js:234:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\app.js:18:15Sat Apr 17 2021 22:30:21 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:130:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:170:18Sat Apr 17 2021 23:46:38 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sat Apr 17 2021 23:50:20 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 16:44:17 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 16:59:27 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:06:01 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:06:13 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:06:33 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:07:09 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:07:26 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:08:33 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:10:37 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:10:57 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:14:31 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:14:58 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:18:33 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:18:52 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:19:21 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:21:30 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun Apr 18 2021 17:21:45 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sat Apr 24 2021 15:10:50 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun May 02 2021 15:30:11 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'toObject' of null
+    at Object.user.getAllProducts (F:\shoppersgit\shoppers-backend\src\model\userModel.js:169:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.user.getAllProducts (F:\shoppersgit\shoppers-backend\src\service\userService.js:40:14)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:87:18Sun May 02 2021 15:39:21 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun May 02 2021 15:46:23 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:171:18Sun May 02 2021 17:48:38 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:172:18Sun May 02 2021 17:48:40 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:172:18Sun May 02 2021 17:48:46 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:172:18Sun May 02 2021 17:48:48 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:172:18Sun May 02 2021 17:48:48 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:172:18Sun May 02 2021 17:48:48 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:172:18Sun May 02 2021 17:48:48 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:172:18Sun May 02 2021 17:48:48 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:172:18Sun May 02 2021 17:48:49 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:172:18Sun May 02 2021 17:48:49 GMT+0530 (India Standard Time)-Error: cANNOT return orders
+    at Object.user.searchProd (F:\shoppersgit\shoppers-backend\src\service\userService.js:132:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\shoppersgit\shoppers-backend\src\routes\userRoute.js:172:18

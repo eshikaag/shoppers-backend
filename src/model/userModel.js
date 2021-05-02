@@ -347,4 +347,22 @@ user.getOrders=async(email)=>
     }
 }
 
+
+user.searchProd=async(item)=>
+{
+    let mod=await connection.getProductConnection()
+    let data=await mod.find({"pName":{"$regex":`${item}`,$options:"i"}});
+    if(data.length<1)
+    {
+        return null;
+    }
+    else
+    {
+        return data;
+    }
+}
+
+
+
+
 module.exports=user

@@ -22,61 +22,61 @@ const userDetails = {
 //         }
 const prodData = [{
     "pid": "p1001",
-    "pName": "Silk saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "Lahenga",
+    "pDescrip": "lahenga with white color ",
     "pRating": 4,
     "pCategory": "Clothes",
     "img": "clothes1.jpg",
-    "color": "blue",
-    "price": 10000,
+    "color": "white",
+    "price": 20000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 8,
     "pShippingCharges": 150
 },
 {
     "pid": "p1002",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "lahenga",
+    "pDescrip": "balck lahenga with golden dots",
     "pRating": 4,
     "pCategory": "Clothes",
     "img": "clothes2.jpg",
-    "color": "blue",
-    "price": 7000,
+    "color": "black",
+    "price": 9000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 8,
     "pShippingCharges": 150
 },
 {
     "pid": "p1003",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "lahenga",
+    "pDescrip": "green lahenga ",
     "pRating": 4,
     "pCategory": "Clothes",
     "img": "clothes3.jpg",
-    "color": "blue",
-    "price": 7000,
-    "pDiscount": 0.2,
+    "color": "green",
+    "price": 8000,
+    "pDiscount": 0.3,
     "pQuantityAvailable": 8,
     "pShippingCharges": 150
 },
 
 {
     "pid": "p1004",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "shirt",
+    "pDescrip": "black shirt ",
     "pRating": 4,
     "pCategory": "Clothes",
     "img": "clothes4.jpg",
-    "color": "blue",
-    "price": 7000,
+    "color": "black",
+    "price": 4000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 98,
     "pShippingCharges": 150
 },
 {
     "pid": "p1005",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "shirt",
+    "pDescrip": "blue denim shirt ",
     "pRating": 4,
     "pCategory": "Clothes",
     "img": "clothes5.jpg",
@@ -88,25 +88,25 @@ const prodData = [{
 },
 {
     "pid": "p1006",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "shirt",
+    "pDescrip": "checks",
     "pRating": 4,
     "pCategory": "Clothes",
     "img": "clothes6.jpg",
     "color": "blue",
-    "price": 7000,
+    "price": 2000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 98,
     "pShippingCharges": 150
 },
 {
     "pid": "p1007",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "shoes",
+    "pDescrip": "black and white shoes",
     "pRating": 4,
     "pCategory": "Shoes",
     "img": "shoes1.jpg",
-    "color": "blue",
+    "color": "black",
     "price": 7000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 98,
@@ -114,25 +114,25 @@ const prodData = [{
 },
 {
     "pid": "p1008",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "adidas shoes",
+    "pDescrip": "adidas",
     "pRating": 4,
     "pCategory": "Shoes",
     "img": "shoes2.jpg",
-    "color": "blue",
-    "price": 7000,
+    "color": "green",
+    "price": 10000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 98,
     "pShippingCharges": 150
 },
 {
     "pid": "p1009",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "Leather shoes",
+    "pDescrip": "leather shoes",
     "pRating": 4,
     "pCategory": "Shoes",
     "img": "shoes3.jpg",
-    "color": "blue",
+    "color": "brown",
     "price": 7000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 98,
@@ -140,12 +140,12 @@ const prodData = [{
 },
 {
     "pid": "p1010",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "Sport shoes",
+    "pDescrip": "black and white ",
     "pRating": 4,
     "pCategory": "Shoes",
     "img": "shoes1.jpg",
-    "color": "blue",
+    "color": "black and white ",
     "price": 7000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 98,
@@ -153,27 +153,27 @@ const prodData = [{
 },
 {
     "pid": "p1011",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "sofa",
+    "pDescrip": "new piece",
     "pRating": 4,
     "pCategory": "Furniture",
     "img": "furniture1.jpg",
 
-    "color": "blue",
-    "price": 7000,
+    "color": "green",
+    "price": 20000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 98,
     "pShippingCharges": 150
 },
 {
     "pid": "p1012",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "Almirah",
+    "pDescrip": "Full room covered ",
     "pRating": 4,
     "pCategory": "Furniture",
     "img": "furniture2.jpg",
-    "color": "blue",
-    "price": 7000,
+    "color": "brown",
+    "price": 30000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 98,
     "pShippingCharges": 150
@@ -181,12 +181,12 @@ const prodData = [{
 },
 {
     "pid": "p1013",
-    "pName": "Cotton saree",
-    "pDescrip": "Saree with pink borders ",
+    "pName": "table",
+    "pDescrip": "wooden work ",
     "pRating": 4,
     "pCategory": "Furniture",
     "img": "furniture3.jpg",
-    "color": "blue",
+    "color": "brown",
     "price": 7000,
     "pDiscount": 0.2,
     "pQuantityAvailable": 98,
@@ -216,15 +216,15 @@ setup.data = async () => {
    
         const cartColl=await connection.getCartConnection()
         await cartColl.deleteMany()
-        const resultCart=await cartColl.insertMany(cartData)
+        // const resultCart=await cartColl.insertMany(cartData)
 
 
         const orderColl=await connection.getOrderConnection()
         await orderColl.deleteMany()
-        const resultOrder=await orderColl.insertMany(orderData)
+        // const resultOrder=await orderColl.insertMany(orderData)
 
 
-        if (insertData.length > 0 && resultProd.length>0 && resultCart.length>0)
+        if (insertData.length > 0 && resultProd.length>0)
             return "Added " + insertData.length + " records";
         else
             return null;

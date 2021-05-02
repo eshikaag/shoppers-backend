@@ -162,4 +162,21 @@ if(data)
    }
 })
 
-module.exports=routing
+
+routing.get('/search/:searchKey',async(req,res,next)=>
+{
+    console.log("eshika search")
+    let key=req.params.searchKey;
+    console.log("hi",key);
+    try{
+        let data=await service.searchProd(key);
+        res.json(data);
+    }
+    catch(err)
+    {
+        next(err);
+    }
+})
+
+
+module.exports=routing 
